@@ -1,0 +1,144 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+body{
+    background-color: gainsboro;
+}
+h1{
+    font-size: 4rem;
+    font-family: monospace;
+}
+button, .blue, .gray{
+    cursor: pointer;
+}
+.innerbox{
+    display: flex;
+    justify-content: space-around;
+}
+.innerbox p{
+    border-radius: 5px;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    background-color: skyblue ;
+    color: blue;
+}
+.boxes h3{
+    line-height: 2;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: white;
+    padding: 1rem;
+}
+.nav_class ul{
+    display: flex;
+}
+.nav_class li a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+.nav_class a:hover{
+    color: rgb(98, 98, 238);
+}
+.nav_class li{
+    font-size: 1.2rem;
+    list-style: none;
+}
+.nav_class li .active{
+    color: rgb(98, 98, 238);
+}
+
+
+/* first-section */
+#fir_sec_class{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 8px;
+}
+#fir_sec_class div{
+    border: 1px solid gainsboro;
+    padding: 0.5rem;
+}
+#fir_sec_class .box-1{
+    align-items: center;
+    display: flex;
+    color: rgb(98, 98, 238);
+    justify-content: space-around;
+}
+#fir_sec_class .box-1 .cross{
+    border-radius: 2px;
+    border: 1px solid rgb(98, 98, 238);
+    padding: 0;
+}
+#fir_sec_class .box-1 input{
+    border: none;
+}
+#fir_sec_class button{
+    background-color: rgb(65, 65, 116);
+    font-weight: 300;
+    cursor: pointer;
+    color: white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+
+
+/* second section */
+#sec_sec_class{
+    display: flex ;
+    margin: 2rem;
+    justify-content: space-around;
+}
+#se_contain{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+#se_contain .head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem ;
+}
+#se_contain .foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px 20px;
+}
+#sec_sec_class div{
+    border: 1px solid none;
+    padding: 0.2rem;
+    border-radius: 12px;
+}
+#sec_sec_class .boxes{
+    padding: 1rem;
+    background-color: white;
+}
+#sec_sec_class .boxes:hover{
+    cursor: pointer;
+}
+#sec_sec_class .boxes img{
+    border-radius: 50%;
+    height: 10vh;
+    width: 10vw;
+}
+#fir_contain .sub{
+    padding-top: 1rem;
+}
+#fir_contain .sub h2{
+    line-height: 2.5;
+}
+.secbox{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px 4px;
+}
